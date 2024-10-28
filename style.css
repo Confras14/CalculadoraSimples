@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #201f1f;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.entrada1, .entrada2 {
+  display: flex;
+  flex-direction: column;
+}
+
+input, select, option, button {
+  padding: 0.5rem;
+  color: #201f1f;
+  font-size: 1.5rem;
+  color: #080808;
+  font-weight: 800;
+  border-radius: 12px;
+  border: none;
+  text-align: center;
+  height: 3rem;
+  width: 20rem;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input:focus, select:focus, select:hover, button:focus {
+  outline: none;
+  transition: all 0.3s ease-out;
+  box-shadow: #020202 0 0 15px 5px;
+}
+
+select {
+  appearance: none;
+  color: #6b6969;
+}
+
+option:first-child {
+  color: #837c7c;
+}
+
+button {
+  background-color:#7538d8;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: #020202 0 0 15px 5px;
+}
+
+button:active  {
+  transition: all 0.005s ease-in;
+  transform: scale(0.99);
+  background-color:#522797;
+}
+
+p {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#valor {
+  font-weight: 900;
+  font-size: 3rem;
+}
