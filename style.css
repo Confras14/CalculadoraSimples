@@ -30,7 +30,6 @@ h1 {
 
 input, select, option, button {
   padding: 0.5rem;
-  color: #201f1f;
   font-size: 1.5rem;
   color: #080808;
   font-weight: 800;
@@ -58,7 +57,7 @@ select {
 }
 
 option:first-child {
-  color: #837c7c;
+  color: #6b6969;
 }
 
 button {
